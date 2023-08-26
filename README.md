@@ -3,6 +3,12 @@
 
 This is a web application that allows users register their Attendance. The application is built using React
 
+### Home Page
+<img src="public/ss/1.png" alt="Homepage" width="700" height="350">
+### Attendance Page
+<img src="public/ss/2.png" alt="Attendance Page" width="700" height="350">
+
+
 ## Tech Stack & Modules
 
 - React: Frontend
