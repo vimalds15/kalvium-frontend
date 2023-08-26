@@ -189,14 +189,14 @@ const AttendanceForm = () => {
 
           <div>
             <button
-              className="my-10 mr-4 border-2 border-black bg-black disabled:opacity-30 text-gray-100 py-4 px-4 rounded"
+              className="my-10 mr-4 border-2 border-black bg-black z-10 disabled:opacity-30 text-gray-100 py-4 px-4 rounded"
               type="submit"
               disabled={isSubmitting}
             >
               Submit
             </button>
             <button
-              className="my-10 border-2 border-black disabled:opacity-30 text-black font-semibold py-4 px-4 rounded"
+              className="my-10 border-2 border-black disabled:opacity-30 bg-white text-black font-semibold py-4 px-4 rounded"
               onClick={handleReset}
               type="reset"
             >

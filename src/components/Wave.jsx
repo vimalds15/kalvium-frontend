@@ -2,7 +2,7 @@ import React from "react";
 
 const Wave = () => {
   return (
-    <div className="custom-shape-divider-bottom-1681450176  pt-1">
+    <div className="custom-shape-divider-bottom-1681450176  pt-1 -z-10">
       <svg
         data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
