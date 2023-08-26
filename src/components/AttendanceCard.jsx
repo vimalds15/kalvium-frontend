@@ -1,8 +1,11 @@
 import React from 'react'
+import AttendanceForm from './forms/AttendanceForm'
 
 const AttendanceCard = () => {
   return (
-    <div>AttendanceCard</div>
+    <div>
+            <AttendanceForm />
+    </div>
   )
 }
 
