@@ -3,9 +3,9 @@ import AttendanceForm from './forms/AttendanceForm'
 
 const AttendanceCard = () => {
   return (
-    <div>
-            <AttendanceForm />
-    </div>
+    <>
+        <AttendanceForm />
+    </>
   )
 }
 

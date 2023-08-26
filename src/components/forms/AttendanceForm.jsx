@@ -20,7 +20,7 @@ const AttendanceForm = () => {
       console.log(formData);
       setTimeout(() => {
         setLoading(false), setResult(true);
-      }, 3000);
+      }, 1100);
     } catch (error) {
       console.error(error.message);
     }
@@ -185,7 +185,7 @@ const AttendanceForm = () => {
           {/* Loader when user clicks submit  */}
           {loading && <LoaderSpinner />}
           {/* Message when attendance is successfully registered  */}
-          {result && <p className="font-semibold mt-5 text-green-700">Your Attendance is successfully registered!</p>}
+          {result && <p className="font-semibold mt-5 text-green-700 text-center">Your Attendance is successfully registered!</p>}
 
           <div>
             <button
